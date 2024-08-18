@@ -22,7 +22,6 @@ end
 local function useMethods(module)
     for name, method in pairs(module) do
         if method then
-            environment[name] = method
         end
     end
 end
